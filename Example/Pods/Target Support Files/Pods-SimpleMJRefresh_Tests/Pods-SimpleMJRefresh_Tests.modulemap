@@ -1,0 +1,6 @@
+framework module Pods_SimpleMJRefresh_Tests {
+  umbrella header "Pods-SimpleMJRefresh_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

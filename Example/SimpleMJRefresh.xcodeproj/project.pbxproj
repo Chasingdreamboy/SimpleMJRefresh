@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		0C20C68DAFD052155532E0F7 /* Pods-SimpleMJRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMJRefresh_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleMJRefresh_Example/Pods-SimpleMJRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		156DA5D73BC90ED5082641B7 /* Pods-SimpleMJRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMJRefresh_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleMJRefresh_Example/Pods-SimpleMJRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		17631FA7126601E9CE4AB3B8 /* SimpleMJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SimpleMJRefresh.podspec; path = ../SimpleMJRefresh.podspec; sourceTree = "<group>"; };
-		249B19E5C4626F286274E46B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		17631FA7126601E9CE4AB3B8 /* SimpleMJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SimpleMJRefresh.podspec; path = ../SimpleMJRefresh.podspec; sourceTree = "<group>"; };
+		249B19E5C4626F286274E46B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3DF38642A69A60FFCFABF8EC /* Pods_SimpleMJRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMJRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1C65ADEE2FEC426C987F9E /* Pods_SimpleMJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleMJRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SimpleMJRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMJRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +65,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8ADDE8B374B6B7CD55B99693 /* Pods-SimpleMJRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMJRefresh_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleMJRefresh_Tests/Pods-SimpleMJRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D08DEEEB66DAF5B0608B29D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D08DEEEB66DAF5B0608B29D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EEC1A8EE04554B28B98CCEF3 /* Pods-SimpleMJRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleMJRefresh_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleMJRefresh_Tests/Pods-SimpleMJRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "acct<blob>=<NULL>";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = RYYD45U27H;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -524,6 +527,7 @@
 			baseConfigurationReference = 0C20C68DAFD052155532E0F7 /* Pods-SimpleMJRefresh_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYYD45U27H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleMJRefresh/SimpleMJRefresh-Prefix.pch";
 				INFOPLIST_FILE = "SimpleMJRefresh/SimpleMJRefresh-Info.plist";
@@ -539,6 +543,7 @@
 			baseConfigurationReference = 156DA5D73BC90ED5082641B7 /* Pods-SimpleMJRefresh_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYYD45U27H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleMJRefresh/SimpleMJRefresh-Prefix.pch";
 				INFOPLIST_FILE = "SimpleMJRefresh/SimpleMJRefresh-Info.plist";

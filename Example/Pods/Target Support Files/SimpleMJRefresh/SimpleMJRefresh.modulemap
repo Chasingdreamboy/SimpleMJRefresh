@@ -1,0 +1,6 @@
+framework module SimpleMJRefresh {
+  umbrella header "SimpleMJRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

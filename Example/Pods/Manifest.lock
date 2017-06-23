@@ -1,0 +1,16 @@
+PODS:
+  - SimpleMJRefresh (0.0.1)
+
+DEPENDENCIES:
+  - SimpleMJRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleMJRefresh:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleMJRefresh: 5ac2b17573b4c3634555ec8cfb9b2b2f7e9960d1
+
+PODFILE CHECKSUM: bdf6bd9e2a6d9d9ae5e2ffba63e0f05962ccdec5
+
+COCOAPODS: 1.2.1

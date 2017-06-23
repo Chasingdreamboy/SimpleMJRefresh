@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00682FF98B09979FA94DB166C9DFDE29 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 082CE025DA76B409C1BCD96E4C57A404 /* MJRefreshGifHeader.m */; };
+		039B48BAEDF594359B363A54AEE8CCD2 /* SimpleMJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F13A739D86D621BAA633F4E4805AFD /* SimpleMJRefresh-dummy.m */; };
+		0995937B87EAFE895A634E8D73767DBF /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B28DC364F15EF9968A0F29131DACE9 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		142F6AB61FA01795423B9C72B686FC1F /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 718F20CCA4A80D55FC19FEE16A44B0D9 /* UIScrollView+MJRefresh.m */; };
+		1C2FB8FC493F409013A77B699A97D245 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF6449505D489156784BECD9A2B591F /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40351DD500A4223EDBF25F78EF903D69 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A69237B4775E6FD054DD9BFC9CD8E72C /* UIView+MJExtension.m */; };
+		4BAFE53B4CF6FCFFFA3C388B81259A8E /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EC531DD81C0AA0809F45B9D02739EC /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54EC93E6B379390B41C02DAD06B24D2E /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA2CD30ECBC51A8855E0CB25EDBDB42 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5965EC7F768571F06996015FE98295D0 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E981FFDEE5ECA054105918257D1FDF1 /* MJRefreshConst.m */; };
+		62C39D7A8F33D2F50FF951956B7D5DBC /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 502E0B202AA810650194D09D9A7AA817 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72302A57AB4DBB68D266EA66537B3269 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C868157938C38473A66E34316BA32FE /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AAC40E328653A48D47A9FF563D11CAE /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 584E3CC636D1038B89C7052053201301 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE0808A4DEB8B7F57C695534CE7AA8E /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D21AB700A019315AFBA8C411E85CD861 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CF4B2BACC4F01C556458D1D37A8014E /* SimpleMJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7248F1C1F1F317BED6C32D4C1749D7BE /* SimpleMJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84668247B29C05A7DB3A3C359DAADDDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		87B6357495C35AAB3840BDE697D1C35B /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D405E60DB2301B042F28F1108261A46 /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E7FBFEAB5447B254ABF368855BB14BF /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 90781B7D38F6F49DEC9153E0D0AFCBDE /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9245C463B271BC93FE480B534B23D857 /* Pods-SimpleMJRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73E3C21D9D588D2F98FB4A0126225E /* Pods-SimpleMJRefresh_Tests-dummy.m */; };
+		9572015A7710AD70DC3964FE7B9C109D /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F2F59AD48AF1ADA306976D95BBDAC7 /* MJRefreshHeader.m */; };
+		9BADF5589131E0EDCA18FAF8292C81CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9E21DE620DE0D1B571402CE62A99AD4A /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0381DCA1C555B87BB631AACE1DD32EBD /* UIScrollView+MJExtension.m */; };
+		9E5B281843354C076C9D846D4623F9C0 /* Pods-SimpleMJRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEDA505B022B16D82CF09DFC556511D /* Pods-SimpleMJRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A37476D461DAEA9F7460E3A8E5E70C05 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C573AB0D47A397B8CB19D96948DA92B /* MJRefreshStateHeader.m */; };
+		AA5316555D2CD59C4DACD013CB0F6C91 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 91E32AD91E4C1D9E40A01287D17F695B /* NSBundle+MJRefresh.m */; };
+		C9E63363E3BF6BBB9A24FBA57FAA7A7B /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 548BE3EDF932FFA7F5DB394B6C954E01 /* MJRefreshComponent.m */; };
+		D2BC69C2EE5F85F7B49EF4675A60C701 /* Pods-SimpleMJRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE368EF967F4F1112B8111F28AADBD4 /* Pods-SimpleMJRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D321CBDF492EF91423EF7BC499969B03 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C310B3763E2F503D7DC6F3B27DFD9717 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB1D21C2B3BEA444F78425E7195E4871 /* Pods-SimpleMJRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA603885F8E674A0C6B43DDC213C132 /* Pods-SimpleMJRefresh_Example-dummy.m */; };
+		DC9D3832C6F377425BFF17FFA7B60F80 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6163EEC3B86074E3B4D5661138B253 /* MJRefreshNormalHeader.m */; };
+		F8197AC001589999EAFA7D0EACBDF891 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F83D47625D44A5A1CE3C5C8E8803C04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D387C301C573C6AB3EA4D16B6C917A28;
+			remoteInfo = SimpleMJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008E78FAFE845ED2A659B546915BB319 /* Pods-SimpleMJRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleMJRefresh_Example.modulemap"; sourceTree = "<group>"; };
+		0381DCA1C555B87BB631AACE1DD32EBD /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		0652F700E499A0B38B8AA4A293888329 /* Pods-SimpleMJRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMJRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		082CE025DA76B409C1BCD96E4C57A404 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		0ACEAEC5A0B703D17C30A8BB52F4AB20 /* SimpleMJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleMJRefresh.modulemap; sourceTree = "<group>"; };
+		0D6FB82D618960C3AA33C8000340953A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E9D6BB5A1F8359A011F4D41B0342DE6 /* SimpleMJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleMJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		1E981FFDEE5ECA054105918257D1FDF1 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshConst.m; sourceTree = "<group>"; };
+		23A678D81C1AD863E9FCE9E5F75FAD7A /* SimpleMJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleMJRefresh.xcconfig; sourceTree = "<group>"; };
+		2C868157938C38473A66E34316BA32FE /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MJExtension.h"; sourceTree = "<group>"; };
+		2DA603885F8E674A0C6B43DDC213C132 /* Pods-SimpleMJRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleMJRefresh_Example-dummy.m"; sourceTree = "<group>"; };
+		2FF6449505D489156784BECD9A2B591F /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		3AA2CD30ECBC51A8855E0CB25EDBDB42 /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		3CA467D90517846AF8AEEE43DC12D1CB /* Pods-SimpleMJRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleMJRefresh_Tests.modulemap"; sourceTree = "<group>"; };
+		3F9F22BD905DAB93B91C6B7116C09662 /* Pods-SimpleMJRefresh_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMJRefresh_Example-resources.sh"; sourceTree = "<group>"; };
+		3FEDA505B022B16D82CF09DFC556511D /* Pods-SimpleMJRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleMJRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
+		46882A67ACB637FC03B08CF2F975AAA7 /* Pods-SimpleMJRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleMJRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C8508AFFBC53588F666EBF98BFE2D1F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C9D871D604571B56929EFA7854E7B4D /* SimpleMJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleMJRefresh.framework; path = SimpleMJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502E0B202AA810650194D09D9A7AA817 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshConst.h; sourceTree = "<group>"; };
+		53F13A739D86D621BAA633F4E4805AFD /* SimpleMJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleMJRefresh-dummy.m"; sourceTree = "<group>"; };
+		548BE3EDF932FFA7F5DB394B6C954E01 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
+		584E3CC636D1038B89C7052053201301 /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshComponent.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C573AB0D47A397B8CB19D96948DA92B /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		6D405E60DB2301B042F28F1108261A46 /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		718F20CCA4A80D55FC19FEE16A44B0D9 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		7248F1C1F1F317BED6C32D4C1749D7BE /* SimpleMJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleMJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		741D8D2961E5C94729E95749736D7261 /* Pods_SimpleMJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMJRefresh_Example.framework; path = "Pods-SimpleMJRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4D756A6FBDBA2306CE9332C8B820C4 /* Pods-SimpleMJRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMJRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8D7CB9C58197905A6167F36485F7808D /* Pods_SimpleMJRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleMJRefresh_Tests.framework; path = "Pods-SimpleMJRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA003B033D755ADBD15EA957E955D99 /* Pods-SimpleMJRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMJRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		90781B7D38F6F49DEC9153E0D0AFCBDE /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		90C0410A4B42C206AE04A8445B07CCD3 /* Pods-SimpleMJRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleMJRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		91E32AD91E4C1D9E40A01287D17F695B /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B28DC364F15EF9968A0F29131DACE9 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefresh.h; sourceTree = "<group>"; };
+		99F2F59AD48AF1ADA306976D95BBDAC7 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshHeader.m; sourceTree = "<group>"; };
+		9A73E3C21D9D588D2F98FB4A0126225E /* Pods-SimpleMJRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleMJRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
+		A69237B4775E6FD054DD9BFC9CD8E72C /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
+		ACE80F30B3AD7BD1DDA585F3785D09A9 /* Pods-SimpleMJRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleMJRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B730CC3160A8B9CDBD951145F8DE8A07 /* Pods-SimpleMJRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMJRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCED29D34B5EAE305D1D7F21229F77FA /* Pods-SimpleMJRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleMJRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C310B3763E2F503D7DC6F3B27DFD9717 /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		CD6163EEC3B86074E3B4D5661138B253 /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		CEE368EF967F4F1112B8111F28AADBD4 /* Pods-SimpleMJRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleMJRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D21AB700A019315AFBA8C411E85CD861 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		D5A4373738780258C8CE1C85A6C34EA8 /* Pods-SimpleMJRefresh_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMJRefresh_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E0FA5B40994CA1690968CCCAFEE2586C /* Pods-SimpleMJRefresh_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleMJRefresh_Tests-resources.sh"; sourceTree = "<group>"; };
+		E6EC531DD81C0AA0809F45B9D02739EC /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MJRefreshHeader.h; sourceTree = "<group>"; };
+		EFE60EB7EB76E78A777A7A7995B2759E /* Pods-SimpleMJRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleMJRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F06990E5F864F7FF923A506BBFE0F0D3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C31D6735797B5F962FE3D8AB721D3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84668247B29C05A7DB3A3C359DAADDDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		686543B661DA33FE81B66292AC0A69EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8197AC001589999EAFA7D0EACBDF891 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CF897F1D3ECBD7FB7D3DC3BFA35F2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BADF5589131E0EDCA18FAF8292C81CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1949AA5AF7EDD669E724AC8F137A2B2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741D8D2961E5C94729E95749736D7261 /* Pods_SimpleMJRefresh_Example.framework */,
+				8D7CB9C58197905A6167F36485F7808D /* Pods_SimpleMJRefresh_Tests.framework */,
+				4C9D871D604571B56929EFA7854E7B4D /* SimpleMJRefresh.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19DE7A6219B579138BD1411872716AF9 /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				97B28DC364F15EF9968A0F29131DACE9 /* MJRefresh.h */,
+				502E0B202AA810650194D09D9A7AA817 /* MJRefreshConst.h */,
+				1E981FFDEE5ECA054105918257D1FDF1 /* MJRefreshConst.m */,
+				3AA2CD30ECBC51A8855E0CB25EDBDB42 /* NSBundle+MJRefresh.h */,
+				91E32AD91E4C1D9E40A01287D17F695B /* NSBundle+MJRefresh.m */,
+				6D405E60DB2301B042F28F1108261A46 /* UIScrollView+MJExtension.h */,
+				0381DCA1C555B87BB631AACE1DD32EBD /* UIScrollView+MJExtension.m */,
+				90781B7D38F6F49DEC9153E0D0AFCBDE /* UIScrollView+MJRefresh.h */,
+				718F20CCA4A80D55FC19FEE16A44B0D9 /* UIScrollView+MJRefresh.m */,
+				2C868157938C38473A66E34316BA32FE /* UIView+MJExtension.h */,
+				A69237B4775E6FD054DD9BFC9CD8E72C /* UIView+MJExtension.m */,
+				F90A1B1F55F9B54DDDE245BC57AF7CD1 /* Base */,
+				9FB0C8BD77F9720D219AF23E689B2265 /* Custom */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		3D1CEEA80EF8786D959558070E60A184 /* SimpleMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8EDE4EC43337343FC703D264A4A65325 /* SimpleMJRefresh */,
+				75FC5B1DB4EAE384FAFBEF8A9399D944 /* Support Files */,
+			);
+			name = SimpleMJRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		47D59E7E899E0BE315A94AF5BBD985CD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D1CEEA80EF8786D959558070E60A184 /* SimpleMJRefresh */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6986834EAE42FA8CCC6AD9CE82DA1742 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A561020153F4FE1E11BBBEC4E552E479 /* Pods-SimpleMJRefresh_Example */,
+				FDF86CB3AD6F9DB04F574ADFB5309F9D /* Pods-SimpleMJRefresh_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75FC5B1DB4EAE384FAFBEF8A9399D944 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D6FB82D618960C3AA33C8000340953A /* Info.plist */,
+				0ACEAEC5A0B703D17C30A8BB52F4AB20 /* SimpleMJRefresh.modulemap */,
+				23A678D81C1AD863E9FCE9E5F75FAD7A /* SimpleMJRefresh.xcconfig */,
+				53F13A739D86D621BAA633F4E4805AFD /* SimpleMJRefresh-dummy.m */,
+				0E9D6BB5A1F8359A011F4D41B0342DE6 /* SimpleMJRefresh-prefix.pch */,
+				7248F1C1F1F317BED6C32D4C1749D7BE /* SimpleMJRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SimpleMJRefresh";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				47D59E7E899E0BE315A94AF5BBD985CD /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1949AA5AF7EDD669E724AC8F137A2B2A /* Products */,
+				6986834EAE42FA8CCC6AD9CE82DA1742 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDE4EC43337343FC703D264A4A65325 /* SimpleMJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				19DE7A6219B579138BD1411872716AF9 /* MJRefresh */,
+			);
+			name = SimpleMJRefresh;
+			path = SimpleMJRefresh;
+			sourceTree = "<group>";
+		};
+		9FB0C8BD77F9720D219AF23E689B2265 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F555578A385AE17AAA797FA95100FFE5 /* Header */,
+			);
+			name = Custom;
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		A561020153F4FE1E11BBBEC4E552E479 /* Pods-SimpleMJRefresh_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4C8508AFFBC53588F666EBF98BFE2D1F /* Info.plist */,
+				008E78FAFE845ED2A659B546915BB319 /* Pods-SimpleMJRefresh_Example.modulemap */,
+				BCED29D34B5EAE305D1D7F21229F77FA /* Pods-SimpleMJRefresh_Example-acknowledgements.markdown */,
+				90C0410A4B42C206AE04A8445B07CCD3 /* Pods-SimpleMJRefresh_Example-acknowledgements.plist */,
+				2DA603885F8E674A0C6B43DDC213C132 /* Pods-SimpleMJRefresh_Example-dummy.m */,
+				7E4D756A6FBDBA2306CE9332C8B820C4 /* Pods-SimpleMJRefresh_Example-frameworks.sh */,
+				3F9F22BD905DAB93B91C6B7116C09662 /* Pods-SimpleMJRefresh_Example-resources.sh */,
+				3FEDA505B022B16D82CF09DFC556511D /* Pods-SimpleMJRefresh_Example-umbrella.h */,
+				0652F700E499A0B38B8AA4A293888329 /* Pods-SimpleMJRefresh_Example.debug.xcconfig */,
+				EFE60EB7EB76E78A777A7A7995B2759E /* Pods-SimpleMJRefresh_Example.release.xcconfig */,
+			);
+			name = "Pods-SimpleMJRefresh_Example";
+			path = "Target Support Files/Pods-SimpleMJRefresh_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F555578A385AE17AAA797FA95100FFE5 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D21AB700A019315AFBA8C411E85CD861 /* MJRefreshGifHeader.h */,
+				082CE025DA76B409C1BCD96E4C57A404 /* MJRefreshGifHeader.m */,
+				C310B3763E2F503D7DC6F3B27DFD9717 /* MJRefreshNormalHeader.h */,
+				CD6163EEC3B86074E3B4D5661138B253 /* MJRefreshNormalHeader.m */,
+				2FF6449505D489156784BECD9A2B591F /* MJRefreshStateHeader.h */,
+				6C573AB0D47A397B8CB19D96948DA92B /* MJRefreshStateHeader.m */,
+			);
+			name = Header;
+			path = Header;
+			sourceTree = "<group>";
+		};
+		F90A1B1F55F9B54DDDE245BC57AF7CD1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				584E3CC636D1038B89C7052053201301 /* MJRefreshComponent.h */,
+				548BE3EDF932FFA7F5DB394B6C954E01 /* MJRefreshComponent.m */,
+				E6EC531DD81C0AA0809F45B9D02739EC /* MJRefreshHeader.h */,
+				99F2F59AD48AF1ADA306976D95BBDAC7 /* MJRefreshHeader.m */,
+			);
+			name = Base;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FDF86CB3AD6F9DB04F574ADFB5309F9D /* Pods-SimpleMJRefresh_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F06990E5F864F7FF923A506BBFE0F0D3 /* Info.plist */,
+				3CA467D90517846AF8AEEE43DC12D1CB /* Pods-SimpleMJRefresh_Tests.modulemap */,
+				ACE80F30B3AD7BD1DDA585F3785D09A9 /* Pods-SimpleMJRefresh_Tests-acknowledgements.markdown */,
+				46882A67ACB637FC03B08CF2F975AAA7 /* Pods-SimpleMJRefresh_Tests-acknowledgements.plist */,
+				9A73E3C21D9D588D2F98FB4A0126225E /* Pods-SimpleMJRefresh_Tests-dummy.m */,
+				D5A4373738780258C8CE1C85A6C34EA8 /* Pods-SimpleMJRefresh_Tests-frameworks.sh */,
+				E0FA5B40994CA1690968CCCAFEE2586C /* Pods-SimpleMJRefresh_Tests-resources.sh */,
+				CEE368EF967F4F1112B8111F28AADBD4 /* Pods-SimpleMJRefresh_Tests-umbrella.h */,
+				B730CC3160A8B9CDBD951145F8DE8A07 /* Pods-SimpleMJRefresh_Tests.debug.xcconfig */,
+				8DA003B033D755ADBD15EA957E955D99 /* Pods-SimpleMJRefresh_Tests.release.xcconfig */,
+			);
+			name = "Pods-SimpleMJRefresh_Tests";
+			path = "Target Support Files/Pods-SimpleMJRefresh_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E92D15B2D8F388D9C320F52604BE85C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BC69C2EE5F85F7B49EF4675A60C701 /* Pods-SimpleMJRefresh_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE16CCEA6FCE583F78C1B3DEA746806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E5B281843354C076C9D846D4623F9C0 /* Pods-SimpleMJRefresh_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE5694D49BCA6E2D154DAE03F3295F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0995937B87EAFE895A634E8D73767DBF /* MJRefresh.h in Headers */,
+				7AAC40E328653A48D47A9FF563D11CAE /* MJRefreshComponent.h in Headers */,
+				62C39D7A8F33D2F50FF951956B7D5DBC /* MJRefreshConst.h in Headers */,
+				7AE0808A4DEB8B7F57C695534CE7AA8E /* MJRefreshGifHeader.h in Headers */,
+				4BAFE53B4CF6FCFFFA3C388B81259A8E /* MJRefreshHeader.h in Headers */,
+				D321CBDF492EF91423EF7BC499969B03 /* MJRefreshNormalHeader.h in Headers */,
+				1C2FB8FC493F409013A77B699A97D245 /* MJRefreshStateHeader.h in Headers */,
+				54EC93E6B379390B41C02DAD06B24D2E /* NSBundle+MJRefresh.h in Headers */,
+				7CF4B2BACC4F01C556458D1D37A8014E /* SimpleMJRefresh-umbrella.h in Headers */,
+				87B6357495C35AAB3840BDE697D1C35B /* UIScrollView+MJExtension.h in Headers */,
+				8E7FBFEAB5447B254ABF368855BB14BF /* UIScrollView+MJRefresh.h in Headers */,
+				72302A57AB4DBB68D266EA66537B3269 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2A7348FBB59BF7E2417325E3A3B8B4F6 /* Pods-SimpleMJRefresh_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 675A39674A00EE3A91DD867511EA455E /* Build configuration list for PBXNativeTarget "Pods-SimpleMJRefresh_Tests" */;
+			buildPhases = (
+				AB91C9039E55A474380E1A5E51F710D0 /* Sources */,
+				8CF897F1D3ECBD7FB7D3DC3BFA35F2F4 /* Frameworks */,
+				E92D15B2D8F388D9C320F52604BE85C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SimpleMJRefresh_Tests";
+			productName = "Pods-SimpleMJRefresh_Tests";
+			productReference = 8D7CB9C58197905A6167F36485F7808D /* Pods_SimpleMJRefresh_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B379F89341D3A21E57FBA0D09EB8137C /* Pods-SimpleMJRefresh_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CE140B90E244528DD46C814E5A08187 /* Build configuration list for PBXNativeTarget "Pods-SimpleMJRefresh_Example" */;
+			buildPhases = (
+				94215E8FFBAED88A5865807901DCDC88 /* Sources */,
+				0C31D6735797B5F962FE3D8AB721D3FC /* Frameworks */,
+				EEE16CCEA6FCE583F78C1B3DEA746806 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A37DB464F1E91488A44312508F3A6250 /* PBXTargetDependency */,
+			);
+			name = "Pods-SimpleMJRefresh_Example";
+			productName = "Pods-SimpleMJRefresh_Example";
+			productReference = 741D8D2961E5C94729E95749736D7261 /* Pods_SimpleMJRefresh_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D387C301C573C6AB3EA4D16B6C917A28 /* SimpleMJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002A2D2BBF55266E553C53569AE67FFA /* Build configuration list for PBXNativeTarget "SimpleMJRefresh" */;
+			buildPhases = (
+				98A26744B5242779CF116C8E0DC5B5B2 /* Sources */,
+				686543B661DA33FE81B66292AC0A69EC /* Frameworks */,
+				FEE5694D49BCA6E2D154DAE03F3295F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleMJRefresh;
+			productName = SimpleMJRefresh;
+			productReference = 4C9D871D604571B56929EFA7854E7B4D /* SimpleMJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1949AA5AF7EDD669E724AC8F137A2B2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B379F89341D3A21E57FBA0D09EB8137C /* Pods-SimpleMJRefresh_Example */,
+				2A7348FBB59BF7E2417325E3A3B8B4F6 /* Pods-SimpleMJRefresh_Tests */,
+				D387C301C573C6AB3EA4D16B6C917A28 /* SimpleMJRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94215E8FFBAED88A5865807901DCDC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1D21C2B3BEA444F78425E7195E4871 /* Pods-SimpleMJRefresh_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98A26744B5242779CF116C8E0DC5B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E63363E3BF6BBB9A24FBA57FAA7A7B /* MJRefreshComponent.m in Sources */,
+				5965EC7F768571F06996015FE98295D0 /* MJRefreshConst.m in Sources */,
+				00682FF98B09979FA94DB166C9DFDE29 /* MJRefreshGifHeader.m in Sources */,
+				9572015A7710AD70DC3964FE7B9C109D /* MJRefreshHeader.m in Sources */,
+				DC9D3832C6F377425BFF17FFA7B60F80 /* MJRefreshNormalHeader.m in Sources */,
+				A37476D461DAEA9F7460E3A8E5E70C05 /* MJRefreshStateHeader.m in Sources */,
+				AA5316555D2CD59C4DACD013CB0F6C91 /* NSBundle+MJRefresh.m in Sources */,
+				039B48BAEDF594359B363A54AEE8CCD2 /* SimpleMJRefresh-dummy.m in Sources */,
+				9E21DE620DE0D1B571402CE62A99AD4A /* UIScrollView+MJExtension.m in Sources */,
+				142F6AB61FA01795423B9C72B686FC1F /* UIScrollView+MJRefresh.m in Sources */,
+				40351DD500A4223EDBF25F78EF903D69 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB91C9039E55A474380E1A5E51F710D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245C463B271BC93FE480B534B23D857 /* Pods-SimpleMJRefresh_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A37DB464F1E91488A44312508F3A6250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleMJRefresh;
+			target = D387C301C573C6AB3EA4D16B6C917A28 /* SimpleMJRefresh */;
+			targetProxy = F83D47625D44A5A1CE3C5C8E8803C04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		250D4DB3FA3A2372E1668803A7861CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0652F700E499A0B38B8AA4A293888329 /* Pods-SimpleMJRefresh_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMJRefresh_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMJRefresh_Example/Pods-SimpleMJRefresh_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMJRefresh_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3436B70FDE9368AD7276B398E497A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B730CC3160A8B9CDBD951145F8DE8A07 /* Pods-SimpleMJRefresh_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMJRefresh_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMJRefresh_Tests/Pods-SimpleMJRefresh_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMJRefresh_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34FB090F5EA227368E870C90DB3589E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A678D81C1AD863E9FCE9E5F75FAD7A /* SimpleMJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleMJRefresh/SimpleMJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleMJRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleMJRefresh/SimpleMJRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleMJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E0E54ECA67F4B3F51FAF3F67F6640E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFE60EB7EB76E78A777A7A7995B2759E /* Pods-SimpleMJRefresh_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMJRefresh_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMJRefresh_Example/Pods-SimpleMJRefresh_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMJRefresh_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EA0C07484A2785B3AB5D7566730297D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23A678D81C1AD863E9FCE9E5F75FAD7A /* SimpleMJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleMJRefresh/SimpleMJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleMJRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleMJRefresh/SimpleMJRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleMJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDB4B2351FD0C6FE6F9AA57C4A0E61B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA003B033D755ADBD15EA957E955D99 /* Pods-SimpleMJRefresh_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SimpleMJRefresh_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SimpleMJRefresh_Tests/Pods-SimpleMJRefresh_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SimpleMJRefresh_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002A2D2BBF55266E553C53569AE67FFA /* Build configuration list for PBXNativeTarget "SimpleMJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EA0C07484A2785B3AB5D7566730297D /* Debug */,
+				34FB090F5EA227368E870C90DB3589E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CE140B90E244528DD46C814E5A08187 /* Build configuration list for PBXNativeTarget "Pods-SimpleMJRefresh_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250D4DB3FA3A2372E1668803A7861CAE /* Debug */,
+				3E0E54ECA67F4B3F51FAF3F67F6640E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		675A39674A00EE3A91DD867511EA455E /* Build configuration list for PBXNativeTarget "Pods-SimpleMJRefresh_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3436B70FDE9368AD7276B398E497A6CB /* Debug */,
+				EDB4B2351FD0C6FE6F9AA57C4A0E61B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
